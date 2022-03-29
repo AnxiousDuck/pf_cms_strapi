@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "three_ds",
+  "info": {
+    "singularName": "three-d",
+    "pluralName": "three-ds",
+    "displayName": "three_d"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ui_uxes",
+  "info": {
+    "singularName": "ui-ux",
+    "pluralName": "ui-uxes",
+    "displayName": "ui ux",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "thumb": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description": {
+      "type": "text"
+    },
+    "problem": {
+      "type": "string"
+    },
+    "goal": {
+      "type": "text"
+    },
+    "my_role": {
+      "type": "text"
+    },
+    "responsibilities": {
+      "type": "text"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "pain_point_one": {
+      "type": "text"
+    },
+    "pain_point_two": {
+      "type": "text"
+    },
+    "pain_point_three": {
+      "type": "text"
+    },
+    "persona_text": {
+      "type": "text"
+    },
+    "persona_img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "paper_wire": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "digi_wire": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "digi_proto": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "r1_f1": {
+      "type": "text"
+    },
+    "r1_f2": {
+      "type": "text"
+    },
+    "r2_f1": {
+      "type": "text"
+    },
+    "r2_f2": {
+      "type": "text"
+    },
+    "second_digi_wire": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
